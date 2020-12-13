@@ -299,6 +299,7 @@ body {
     border-left: 2px solid;
     padding-left: 10px;
     box-shadow: -5px 5px 3px 2px;
+    font-size: 120%;
 }
 
 .mySkill .card:hover .card-title {
