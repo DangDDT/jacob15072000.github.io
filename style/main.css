@@ -26,7 +26,7 @@
 .container-fluid {
     max-width: 85%;
     max-height: 85%;
-    margin-top: 0%;
+    margin-top: 3%;
 }
 
 body {
@@ -212,6 +212,7 @@ body {
 
 .mySkill {
     background-color: rgba(218, 213, 213, 0.068);
+    padding-bottom: 20%;
 }
 
 .mySkill>h1 {
@@ -236,8 +237,8 @@ body {
     border-radius: 10%;
     margin-left: 35%;
     margin-right: 35%;
-    margin-top: 4%;
-    margin-bottom: 2%;
+    margin-top: 7%;
+    margin-bottom: 3%;
     background-color: aliceblue;
 }
 
@@ -249,12 +250,22 @@ body {
     border-radius: 10%;
     border: 3px dotted black;
     box-shadow: 5px 5px 20px 5px darksalmon;
-    transition: all 0.5s ease-in;
+    transition: all 150ms ease-in;
+    background-color: transparent;
+}
+
+.mySkill .card-deck .card:hover {
+    padding-bottom: 1%;
+    padding-right: 1%;
+    transition: all 350ms ease-in-out;
+    border-color: cornflowerblue;
+    margin-bottom: -7.5%;
+    background-color: white;
 }
 
 .mySkill .card-deck {
     padding: 2%;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.432);
     border-radius: 10%;
     margin-left: 0px;
     margin-right: 0px;
@@ -268,6 +279,18 @@ body {
     margin-bottom: 5%;
 }
 
+.mySkill .card-deck .card:hover .fa {
+    margin-left: 45%;
+    transition: all 280ms ease-in-out;
+    color: cornflowerblue;
+}
+
+.mySkill .card-deck .card:hover .fas {
+    margin-left: 45%;
+    transition: all 280ms ease-in-out;
+    color: cornflowerblue;
+}
+
 .mySkill .card-deck .card-body .card-title {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
@@ -278,8 +301,22 @@ body {
     box-shadow: -5px 5px 3px 2px;
 }
 
+.mySkill .card:hover .card-title {
+    color: cornflowerblue;
+}
+
 .mySkill .card-deck .card-body .card-text {
     font-family: "Mulish";
+    opacity: 0.2;
+    position: absolute;
+    visibility: hidden;
+    font-size: 85%;
+}
+
+.mySkill .card-deck .card:hover .card-body .card-text {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    visibility: visible;
 }
 
 @keyframes fadein {
