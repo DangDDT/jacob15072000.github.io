@@ -1,0 +1,312 @@
+.card-header {
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: center;
+}
+
+.border-primary {
+    border-color: #b16953!important;
+}
+
+.border-primary {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-width: thin;
+    border-style: none;
+    padding: 1%;
+    background-color: floralwhite;
+    background: -webkit-radial-gradient(bottom right, ellipse farthest-side, floralwhite 90%, white 30%);
+    box-shadow: 10px 10px 10px black;
+    position: fixed;
+    width: 20%;
+    height: 50%;
+}
+
+.container-fluid {
+    max-width: 85%;
+    max-height: 85%;
+    margin-top: 0%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.border-primary .card-title {
+    font-family: 'Dancing Script', serif;
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.596);
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 0.5px 0.5px 0.5px gray;
+}
+
+.border-primary .card-title span {
+    font-weight: bolder;
+}
+
+.border-primary .card-img-top {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 30%;
+}
+
+.border-primary .card-body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.border-primary .text-cursor {
+    animation: cursor-flash 1.6s infinite;
+}
+
+.card-header .list-inline {
+    font-size: 120%;
+}
+
+.card-header .list-inline-item:not(:last-child) {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.card-header .list-inline-item {
+    color: white;
+    font-family: 'Mulish';
+    font-weight: bolder;
+}
+
+.card-header .list-inline .fa {
+    color: white;
+}
+
+.card-header .list-inline-item a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+    border-top: 3px solid;
+    padding-top: 3px;
+    border-radius: 30%;
+    color: rgba(8, 217, 245, 0.664);
+    transition: all 280ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(#eee, rgba(8, 217, 245, 0.664));
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-header .list-inline-item span {
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+.card-header .list-inline-item a {
+    margin-left: 10px;
+}
+
+.card-footer {
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: right;
+}
+
+.card-footer .list-inline-item {
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.card-footer .list-inline-item:not(:last-child) {
+    margin-right: 1%;
+}
+
+.card-footer .list-inline-item:not(:first-child) {
+    margin-left: 1%;
+}
+
+.card-footer .list-inline-item {
+    color: white;
+    font-family: 'Open San';
+    font-weight: bolder;
+}
+
+.card-footer .list-inline .fa {
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 100%;
+    color: white;
+    font-size: 120%;
+}
+
+.card-footer .list-inline-item .fa[title]:after {
+    transition: all 1s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    opacity: 0;
+}
+
+.card-footer .list-inline-item a:hover {
+    text-decoration: none;
+}
+
+.card-footer .list-inline-item .fa:hover {
+    color: rgba(8, 217, 245, 0.664);
+    border-color: rgba(8, 217, 245, 0.664);
+    transition: all 400ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    background: -webkit-linear-gradient(#eee, rgba(8, 217, 245, 0.664));
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+    -webkit-text-fill-color: transparent;
+    font-size: 125%;
+    border-radius: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-footer .list-inline-item .fa[title]:hover:after {
+    content: attr(title);
+    font-size: 80%;
+    font-weight: bolder;
+    font-family: "Mulish";
+    opacity: 1;
+    animation: fadein 100ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+}
+
+.aboutMe {
+    margin-top: 2%;
+    padding: 1%;
+    text-align: center;
+}
+
+.aboutMe h1 {
+    color: rgba(56, 53, 53, 0.767);
+    font-family: 'ZCOOL XiaoWei';
+}
+
+.aboutMe h2 {
+    color: #b16953;
+    font-family: 'ZCOOL XiaoWei';
+    text-transform: uppercase;
+}
+
+.aboutMe h2 span {
+    font-weight: 900;
+}
+
+.aboutMe h3 {
+    color: rgba(56, 53, 53, 0.767);
+    font-family: 'Mulish';
+}
+
+.media-body {
+    display: inline-table;
+}
+
+.media-body .fa {
+    font-size: 400%;
+    color: darkgray;
+}
+
+.aboutMe h1 {
+    margin-top: 10%;
+}
+
+.mySkill {
+    background-color: rgba(218, 213, 213, 0.068);
+}
+
+.mySkill>h1 {
+    background-color: white;
+    text-align: center;
+    font-family: "ZCOOL XiaoWei";
+    padding-bottom: 2%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.mySkill>h2 {
+    display: block;
+    text-align: center;
+    font-family: "ZCOOL XiaoWei";
+    border: 3px double black;
+    padding: 2%;
+    border-radius: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    background-color: aliceblue;
+}
+
+.mySkill>h2 .fa {
+    margin-right: 10px;
+}
+
+.mySkill .card {
+    border-radius: 10%;
+    border: 3px dotted black;
+    box-shadow: 5px 5px 20px 5px darksalmon;
+    transition: all 0.5s ease-in;
+}
+
+.mySkill .card-deck {
+    padding: 2%;
+    background-color: bisque;
+    border-radius: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mySkill .card-deck .card .card-body .fa,
+.fas {
+    color: black;
+    font-size: 300%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.mySkill .card-deck .card-body .card-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: darksalmon;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    padding-left: 10px;
+    box-shadow: -5px 5px 3px 2px;
+}
+
+.mySkill .card-deck .card-body .card-text {
+    font-family: "Mulish";
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes cursor-flash {
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei:regular);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,italic,700);
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
